@@ -175,7 +175,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](././issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
