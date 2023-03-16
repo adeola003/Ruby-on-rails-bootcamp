@@ -153,8 +153,17 @@ footer {
   padding-top: 20px;
 }
 
-@media only screen and (min-width: 768px) {
+.footer-logo {
+  width: 15%;
+}
 
+.foot-items {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
   #home {
     height: auto;
   }
@@ -169,14 +178,14 @@ footer {
     padding-left: 1px;
     padding-right: 1px;
     flex: 1;
-    height: 300px auto;
+    min-height: 280px;
+    height: auto;
   }
 
   .procard {
     height: 100%;
   }
-  
-  
+
   .speakers-div {
     display: grid;
     grid-template-columns: auto auto;
@@ -203,7 +212,6 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-
   #home {
     height: auto;
   }
@@ -242,6 +250,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
   }
+
   .spk-img-cont {
     background-image: url("./assets/speakers/image-bg.png");
     background-position: top left;

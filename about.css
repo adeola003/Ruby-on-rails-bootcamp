@@ -76,9 +76,7 @@ p {
 
 .btcp-img {
   width: 100%;
-  height: 170px;
   opacity: 30%;
-  position: relative;
 }
 
 .item-1,
@@ -94,10 +92,6 @@ p {
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-}
-
-footer {
-  height: 10vh;
 }
 
 .foot-cont {
@@ -116,9 +110,29 @@ footer {
   padding-right: 20%;
 }
 
+.brand-text {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
 .my-gif {
   width: 30%;
+  height: 180px;
   padding-bottom: 30px;
+}
+
+footer {
+  height: 13vh;
+}
+
+.footer-logo {
+  width: 15%;
+}
+
+.foot-items {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -129,6 +143,7 @@ footer {
     max-width: 90vw;
     column-gap: 30px;
     padding-bottom: 40px;
+    padding-left: 20%;
   }
 }
 
@@ -157,12 +172,18 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     max-width: 90vw;
     row-gap: 30px;
     padding-bottom: 40px;
+    padding-left: 10%;
   }
 
   footer {
-    height: auto;
+    height: 200px;
+  }
+
+  .foot-cont {
+    padding-top: 50px;
   }
 }
