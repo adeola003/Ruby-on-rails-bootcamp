@@ -19,13 +19,23 @@ body {
   border: 6px solid rgb(234, 99, 9);
 }
 
-.nav-item {
-  margin-right: 50px;
+.navbar {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.navbar-nav {
+  display: flex;
+  column-gap: 40px;
 }
 
 #home {
   height: 86vh;
   background-image: url("./assets/intro/home-bg-desk.png");
+}
+
+.intro-elements {
+  padding-left: 20%;
 }
 
 .container {
@@ -37,10 +47,14 @@ body {
   color: orangered;
 }
 
+.intro-elements p {
+  padding-top: 30px;
+}
+
 .intro-title {
   color: transparent;
   font-weight: 900;
-  font-size: 45px;
+  font-size: 55px;
   background-image: url(./assets/intro/title-bg.jpeg);
   -webkit-background-clip: text;
 }
@@ -50,8 +64,8 @@ body {
   border: 2px solid white;
   color: black;
   font-family: "Lato", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .schedule {
@@ -140,6 +154,29 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+
+  #home {
+    height: auto;
+  }
+
+  .prog-container {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .mob-pro {
+    padding-left: 1px;
+    padding-right: 1px;
+    flex: 1;
+    height: 300px auto;
+  }
+
+  .procard {
+    height: 100%;
+  }
+  
+  
   .speakers-div {
     display: grid;
     grid-template-columns: auto auto;
@@ -157,8 +194,6 @@ footer {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-
-    /* justify-content: first baseline; */
   }
 
   .spk-img {
@@ -168,6 +203,11 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
+
+  #home {
+    height: auto;
+  }
+
   .close-btn {
     display: none;
   }
@@ -189,10 +229,6 @@ footer {
     row-gap: 16px;
   }
 
-  #home {
-    height: 110vh;
-  }
-
   .mob-pro {
     width: 100%;
   }
@@ -206,9 +242,19 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
   }
+  .spk-img-cont {
+    background-image: url("./assets/speakers/image-bg.png");
+    background-position: top left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
 
   .spk-img {
-    width: 100%;
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 8px;
   }
 
   .partner-items {

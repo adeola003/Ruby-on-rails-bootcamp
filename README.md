@@ -87,7 +87,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [#](https://google.com)
+- [https://adeola003.github.io/Ruby-on-rails-bootcamp/](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +133,7 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-- **sh ====>**
+- **GitHub Pages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
